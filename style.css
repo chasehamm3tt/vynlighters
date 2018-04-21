@@ -1,0 +1,62 @@
+html{
+	height: 100%;
+}
+
+
+
+body {
+	background: white;
+	background-image: url(https://78.media.tumblr.com/aed7e970ec7b37b7202aca3354d3b00f/tumblr_n14btdzOKu1r2nfs5o1_500.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+    display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+
+#product {
+	position: absolute;
+	top: 200px;
+	left:230px;
+	max-height: 100%;
+	max-width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+#product img {
+	max-width:100%;
+	max-height: 100%;
+}
+
+.add-to-cart{
+	
+	height: 130px;
+	
+	
+	position: relative;
+	top: 10px;
+	left: 1500px;
+
+}
+footer{
+	position: fixed;
+	top:800px;
+	color: yellow;
+}
+
+footer h1{
+	text-align: center;
+	font-size: 50px;
+
+}
+
+footer p{
+	text-align: center;
+	font-size: 24px;
+	font-family: papyrus;
+}
+
+
